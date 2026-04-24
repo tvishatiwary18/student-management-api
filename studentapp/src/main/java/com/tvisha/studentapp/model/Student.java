@@ -7,13 +7,13 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     private String name;
     private int age;
 
     // GETTERS
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -26,7 +26,7 @@ public class Student {
     }
 
     // SETTERS
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
